@@ -12,21 +12,26 @@
       });
       console.log(fullNames);
 
+      // anonymous function
       const fullNames2 = names.map((name) => {
         return `${name} bos`;
       });
       console.log(fullNames2);
 
+      // implicit return
       const fullNames3 = names.map((name) => `${name} bos`);
       console.log(fullNames3);
 
+      // with no arguments you need the empty parentheses
       const fullNames4 = names.map(() => `cool bos`);
       console.log(fullNames4);
 
+      // named function
       //   function sayMyName(name) {
       //     alert(`Hello ${name}`);
       //   }
 
+      // arrow function with named function
       const sayMyName = (name) => {
         alert(`Hello ${name}1`);
       };
